@@ -79,5 +79,6 @@ The PC sends a **21-byte binary packet** (little-endian) to the Arduino at **960
 | 20 | 1 | `Checksum` | `uint8` | XOR of bytes 2–19 |
 
 The Arduino validates the header pair and checksum before updating the display. If no valid packet arrives within 5 seconds, the OLED shows a "Waiting for PC..." message.
+
 ---
 ## Wiring
