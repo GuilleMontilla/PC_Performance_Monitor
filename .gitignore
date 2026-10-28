@@ -17,17 +17,6 @@ packages/
 *.nuget.props
 *.nuget.targets
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.egg-info/
-dist/
-build/
-*.egg
-.venv/
-venv/
-
 # Arduino
 *.elf
 *.hex
